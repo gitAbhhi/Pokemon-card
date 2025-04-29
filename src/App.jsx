@@ -1,10 +1,5 @@
-import { useContext, useEffect, useState } from 'react'
 import './App.css'
-import { Route, Routes, useNavigate } from 'react-router-dom'
-import Navbar from './component/Navbar'
-import Footerpage from './component/Footer'
-import Productdetail from './pages/Productdetail'
-import Login from './pages/Login'
+import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 
 
