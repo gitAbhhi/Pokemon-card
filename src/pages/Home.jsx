@@ -1,8 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useContext, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import Productdetail from '../pages/Productdetail'
-import { StoreContext } from '../component/context/StoreContext'
 import Layout from './Layout'
 
 const Home = () => {
